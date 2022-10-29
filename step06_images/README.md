@@ -11,7 +11,7 @@ During the Next.js Community Survey, 70% of respondents told us they used the Ne
 
 ### Local Images
 
- import img from "../images/myimg.jpg";
+     import img from "../images/myimg.jpg";
 
 
 
@@ -27,7 +27,7 @@ The new Image component:
 
 The old Image component was renamed to next/legacy/image. We've provided a codemod that will automatically update your existing usage of next/image to next/legacy/image. For example, this command would run the codemod on your ./pages directory when run from the root:
 
-npx @next/codemod next-image-to-legacy-image ./pages
+     npx @next/codemod next-image-to-legacy-image ./pages
 
 ## Learn More
 
